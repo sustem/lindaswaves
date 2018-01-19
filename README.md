@@ -1,2 +1,0 @@
-# lindaswaves
-Image storage
