@@ -1,7 +1,7 @@
 <html>
 	<body>
 		<a href="http://www.google.com" id="urlredirect" target="_blank">
-			<img src="https://github.com/sustem/lindaswaves/blob/master/herr.png?raw=true" id="slide" style="max-width:100%">
+			<img src="" id="slide" style="max-width:100%">
 		</a>
 		<script type="text/javascript">			
 			function imageExists(url, callback) {
@@ -71,8 +71,12 @@
 					step = 0;
 				}
 			}
-
-			// Sätt ett interval, så behöver den inte uppdatera en timeout varje gång metoden körs
+			
+			window.onload = function() {            
+				slideit();
+			}
+			
+			// Sätt ett interval, så behöver den inte uppdatera en timeout varje gång metoden körs			
 			setInterval("slideit()", 4000);
 		</script>
 	</body>
