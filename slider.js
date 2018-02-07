@@ -16,7 +16,11 @@
 			HERR = "https://github.com/sustem/lindaswaves/blob/master/herr.png?raw=true";
 			HJ = "https://github.com/sustem/lindaswaves/blob/master/hj.png?raw=true";	
 			SSC = "https://github.com/sustem/lindaswaves/blob/master/ssc.png?raw=true";	
-			URL = "http://www.lindaswaves.se/";
+			DAMURL = "https://www.lindaswaves.se/lindaswaves-dam-a";
+			DJURL = "https://www.lindaswaves.se/lindaswaves-damjunior";
+			HERRURL = "https://www.lindaswaves.se/lindas-herr";
+			HJURL = "https://www.lindaswaves.se/lindas-herr-jr-akademin";
+			SSCURL = "https://www.lindaswaves.se/SalmingSummerCamp";
 			
 			var pictures = [];
 			var urls = [];
@@ -24,35 +28,35 @@
 			imageExists(DAM, function(exists) {
 				if (exists == 1) {
 					pictures.push(DAM);
-					urls.push(URL);
+					urls.push(DAMURL);
 				}
 			});			
 						
 			imageExists(DJ, function(exists) {
 				if (exists == 1) {
 					pictures.push(DJ);
-					urls.push(URL);
+					urls.push(DJURL);
 				}
 			});			
 	
 			imageExists(HERR, function(exists) {
 				if (exists == 1) {
 					pictures.push(HERR);
-					urls.push(URL);
+					urls.push(HERRURL);
 				}
 			});			
 	
 			imageExists(HJ, function(exists) {
 				if (exists == 1) {
 					pictures.push(HJ);
-					urls.push(URL);
+					urls.push(HJURL);
 				}
 			});			
 	
 			imageExists(SSC, function(exists) {
 				if (exists == 1) {
 					pictures.push(SSC);
-					urls.push(URL);
+					urls.push(SSCURL);
 				}
 			});			
 	
