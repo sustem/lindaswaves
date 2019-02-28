@@ -11,7 +11,7 @@
 				img.src = url;
 			}
 		
-			DAM = "https://github.com/sustem/lindaswaves/blob/master/dam.png?raw=true";
+			DAM = "https://github.com/sustem/lindaswaves/blob/master/dam2.png?raw=true";
 			DJ = "https://github.com/sustem/lindaswaves/blob/master/dj.png?raw=true";
 			HERR = "https://github.com/sustem/lindaswaves/blob/master/herr.png?raw=true";
 			HJ = "https://github.com/sustem/lindaswaves/blob/master/hj.png?raw=true";	
